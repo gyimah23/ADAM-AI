@@ -5,7 +5,7 @@ import os
 app = Flask(__name__, template_folder='template')
 
 # Set the Google Cloud Platform API key for Generative AI service
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDCgy0WYxzNU4rPcpaGSE0fsx_b3Sh5Ke4"
+os.environ["GOOGLE_API_KEY"] = "you api"
 
 # Configure the Palm API
 palm.configure(api_key=os.environ["GOOGLE_API_KEY"])
